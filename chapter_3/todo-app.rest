@@ -18,3 +18,16 @@ Content-Type: application/json
     "username": "giglamesh@gmail.com",
     "password": "123123123"
 }
+
+### FETCH all todos GET /TODOS
+GET http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3OTQ1OTIwLCJleHAiOjE3NTgwMzIzMjB9.ksUkdvjsAVtnqigJ-b6N6f_Yr7vLSSjtabQyebg-dr0
+
+### Creates a new todo POST /TODOS
+POST http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3OTQ1OTIwLCJleHAiOjE3NTgwMzIzMjB9.ksUkdvjsAVtnqigJ-b6N6f_Yr7vLSSjtabQyebg-dr0
+Content-Type: application/json
+
+{
+    "task": "Finish coding the projects"
+}
